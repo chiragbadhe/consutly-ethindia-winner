@@ -12,10 +12,6 @@ import VideocamOffIcon from "@mui/icons-material/VideocamOff";
 import ScreenShareOutlinedIcon from "@mui/icons-material/ScreenShareOutlined";
 import StopScreenShareOutlinedIcon from "@mui/icons-material/StopScreenShareOutlined";
 
-import {
-  HuddleClientProvider,
-  getHuddleClient,
-} from "@huddle01/huddle01-client";
 
 function Footer({ handleJoin, camera, mic, leaveRoom, screenShare }: any) {
   return (
